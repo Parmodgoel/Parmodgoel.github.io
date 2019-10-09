@@ -1,0 +1,185 @@
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+.icon-bar {
+  /*width: 100%;*/
+  background-color: #555;
+ /* overflow: auto;*/
+}
+
+
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  
+  color: black;
+}
+
+.fa-twitter {
+  
+  color:black;
+}
+
+.fa-instagram {
+ 
+  color:black;
+}
+
+.fa-linkedin {
+ 
+  
+  color: black;
+}
+
+
+p.bord{
+border-style: solid;
+border-radius: 5px;
+border-color:#0aebd6;
+border-width:1px;
+margin-left:10%;
+padding: 5px;
+
+}
+.main_wrapper{
+  width:100%;
+ height: auto;
+ margin: auto;
+ 
+}
+
+.upper{
+border-width:1px;
+border-color:white;
+border-style:solid;
+width:90%;
+
+background-color:#faffff;
+margin-left:50px;
+
+
+}
+.headr {
+	
+border-bottom:  grey;
+box-shadow: 1.5px 5px #e1e1ea;
+border-width:1px;
+  float:right;
+ width:100%;
+  padding-left: 60px;
+  height: 60px;
+  text-align: left;
+  background:white;
+  color: black;
+  font-size: 20px;
+}
+
+.sidenav {
+float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+  width: 5%; 
+  z-index: 1;
+  background-color: white;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 150px;
+}
+
+.content{
+	
+  height:auto;
+ width:1250px;
+ float:right;
+ margin-top:5px;
+background:#fcfcff;
+}
+
+.box{
+border-radius: 5px;
+border-color:white;
+border-style:solid;
+border-width:1px;
+width:300px;
+padding:4px;
+background-color:white;
+/*margin-left:30px;
+margin-bottom:20px;*/
+margin:30px;
+
+}
+.box:hover{
+box-shadow:rgba(0,0,0,0.4) 0px 10px 10px;
+}
+
+/*.lower{
+ display:grid;
+ grid-gap:18px;
+ grid-template-columns: 300px 300px 300px;
+background:#fcfcff;
+margin-left:90px;
+
+}*/
+.lower{
+display:flex;
+flex-direction: row;
+align-items: inherit;
+flex-wrap: wrap;
+}
+
+.img_adj
+{
+/* 35 28 */
+width:70px; 
+height:50px;
+float:left;
+margin:15px;
+}
+.footer{
+width:1250px;
+
+}
+
+.circle {
+margin-top:15px;
+margin-right:10%;
+float:right;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 20px;
+  color:white;
+  line-height: 40px;
+  text-align: center;
+  background: lightgreen;
+}
